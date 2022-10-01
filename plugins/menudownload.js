@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
 let info = `
-*${htki} 📥 DOWNLOADER MENU 📥 ${htka}*
+*${htki} 📥 DOWNLOADER 📥 ${htka}*
 `
 const sections = [
    {
@@ -31,7 +31,7 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "ðŸŒŽ Group Official", null,null, [['Owner','.owner']], m)
 }
 
-handler.command = /^menugame$/i
+handler.command = /^menudownload$/i
 handler.premium = false
 
 export default handler
