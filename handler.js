@@ -698,13 +698,13 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ok', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://instagram.com/Xiao_yan_21",
+    mediaUrl: "https://instagram.com/_lucxfvr",
     mediaType: 2, 
-    description: "https://youtu.be/-TleC8rbDT8", 
-    title: 'Elaina-MultiDevice',
-    body: wm,
+    description: "Version 3.0", 
+    title: 'X P E N T 4',
+    body: '',
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
-    sourceUrl: sig
+    sourceUrl: ''
      }}
   })
                     }
@@ -785,7 +785,7 @@ global.dfail = (type, m, conn) => {
         unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* • ᴋᴇᴛɪᴋ  .daftar ᴜɴᴛᴜᴋ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ғɪᴛᴜʀ ɪɴɪ', 
         restrict: '*ʀᴇsᴛʀɪᴄᴛ* • ʀᴇsᴛʀɪᴄᴛ ʙᴇʟᴜᴍ ᴅɪɴʏᴀʟᴀᴋᴀɴ ᴅɪᴄʜᴀᴛ ɪɴɪ',
     }[type]
-    if (msg) return conn.send2ButtonDoc(m.chat, msg, author, '💌 Creator', '.creator', '🎀 Menu', '.menu', fpayment, adReply)
+    if (msg) return conn.send2ButtonDoc(m.chat, msg, author, 'Owner', '.owner', 'Menu', '.menu', fpayment, adReply)
 }
 
 let file = global.__filename(import.meta.url, true)
