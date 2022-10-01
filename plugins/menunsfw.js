@@ -10,9 +10,8 @@ const sections = [
     {title: "Nhentai Downloader", rowId: '.nhentai', description: "Download PDF from nhentai"},
 	{title: "Rule34", rowId: '.rule34', description: "Search any anime NSFW pict"},
 	{title: "Realshit", rowId: '.realshit', description: "NSFW Real"},
-	{title: "Bokep", rowId: '.bkp', description: "video bokep"},
 	{title: "File Bokep", rowId: '.filebokep', description: "Random File Bokep Rare"},
-	{title: "Onlyfans", rowId: '.onlyfans', description: "Random File Onlyfans"},
+	{title: "Onlyfans", rowId: '.onlyfans', description: "s o o n . . ."},
 	]
     }, 
     
