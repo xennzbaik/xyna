@@ -785,7 +785,7 @@ global.dfail = (type, m, conn) => {
         unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* • ᴋᴇᴛɪᴋ  .daftar ᴜɴᴛᴜᴋ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ғɪᴛᴜʀ ɪɴɪ', 
         restrict: '*ʀᴇsᴛʀɪᴄᴛ* • ʀᴇsᴛʀɪᴄᴛ ʙᴇʟᴜᴍ ᴅɪɴʏᴀʟᴀᴋᴀɴ ᴅɪᴄʜᴀᴛ ɪɴɪ',
     }[type]
-    if (msg) return conn.send2ButtonDoc(m.chat, msg, author, 'Menu', '.menu', fpayment, adReply)
+    if (msg) return conn.send2ButtonDoc(m.chat, msg, author, 'Menu', '.menu', ,Owner', '.owner', fpayment, adReply)
 }
 
 let file = global.__filename(import.meta.url, true)
