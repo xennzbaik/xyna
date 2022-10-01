@@ -194,15 +194,14 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	},{
 	title: `${htki} MENU ${htka}`,
 	rows: [
-    {title: `╿💬╽All`, rowId: ".? all", description: "⤷ Menampilkan Semua command BOT"},
-    {title: `╿🌱╽Rpg`, rowId: ".? rpg", description: "⤷ Game Epic Rpg!"},
-    {title: `╿📣╽VN`, rowId: ".menuvn", description: "⤷ Random VN!"},
+        {title: `╿💬╽All`, rowId: ".? all", description: "⤷ Menampilkan Semua command BOT"},
+        {title: `╿🌱╽Rpg`, rowId: ".? rpg", description: "⤷ Game Epic Rpg!"},
+        {title: `╿📣╽VN`, rowId: ".menuvn", description: "⤷ Random VN!"},
 	{title: `╿✨╽Exp`, rowId: ".? xp", description: "⤷ Ayo tingkatkan pangkat mu!"},
         {title: `╿🧿╽APK DOWNLOAD`, rowId: ".apk", description: "⤷ Fitur berguna untuk mendownload Aplikasi"},
         {title: `╿📸╽Image`, rowId: ".? image", description: "⤷ Random search image"},
 	{title: `╿🎮╽Game`, rowId: ".menugame", description: "⤷ Gamenya seru seru lho >-<"},
 	{title: `╿🧩╽Fun`, rowId: ".? fun", description: "⤷ Fitur yang aman untuk keluarga"},
-	{title: `╿☠╽Virus`, rowId: ".? virus", description: "⤷ Virus/Bug WhatsApp"},
 	{title: `╿🐚╽ Kerang`, rowId: ".? kerangajaib", description: "⤷ Tanyakan pada ketua club"},
 	{title: `╿📑╽Quotes`, rowId: ".? quotes", description: "⤷ Random Inspirasi"},
 	{title: `╿⛩️╽Anime`, rowId: ".? anime", description: "⤷ Kamu wibu ya bang?"},
