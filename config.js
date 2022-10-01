@@ -59,7 +59,7 @@ global.ppulsa = '085954184111' //Nomor SimCard Yang Kamu Pake
 global.psaweria = '-' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281231079387' //Nomor Bot
+global.nomorbot = '6285936741266' //Nomor Bot
 global.nomorown = '6285954184111' //Nomor Owner
 global.namebot = 'Pentagtam BOT' //Nama Bot
 global.nameown = 'GOPALA5U' // Nama Owner
@@ -167,12 +167,12 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = ''
-global.stickauth = `pentagram`
+global.stickpack = 'x p e n t a'
+global.stickauth = `V 3`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
 global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴇʟᴀɪɴᴀ ʙᴏᴛᴢ'
 
-global.multiplier = 18 // The higher, The harder levelup
+global.multiplier = 28 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
 global.rpg = {
