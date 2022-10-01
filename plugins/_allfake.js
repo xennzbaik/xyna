@@ -46,12 +46,12 @@ handler.all = async function (m) {
 				externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
                     showAdAttribution: true,
 					title: global.ucapan,
-					body: wm,
-					mediaUrl: sgc,
+					body: author,
+					mediaUrl: sig,
 					description: 'Elaina-MultiDevice',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pic)).buffer(),
-					sourceUrl: "https://github.com/ImYanXiao",					
+					sourceUrl: '',					
 				}
 			}
 		}
