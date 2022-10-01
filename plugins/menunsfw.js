@@ -32,5 +32,6 @@ conn.sendFile(m.chat, vn, m)
 
 handler.command = /^menunsfw$/i
 handler.premium = false
+handler.register = true
 
 export default handler
