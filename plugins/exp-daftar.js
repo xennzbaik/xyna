@@ -64,7 +64,7 @@ const listMessage = {
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
   age = parseInt(age)
   if (age > 30) throw 'WOI TUA (。-`ω´-)'
-  if (age < 9) throw 'Halah dasar bocil'
+  if (age < 5) throw 'Halah dasar bocil'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
@@ -88,7 +88,7 @@ const listMessage = {
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
-'forwardingScore':999,
+'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
 'mediaUrl':global.sig,
@@ -96,7 +96,7 @@ const listMessage = {
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/4a7e5f18efaadec18a7a0.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/551f95b345d9d3c10c7aa.jpg')).buffer(),
 'sourceUrl':sgc}},
 'caption':cap,
 'footer':botdate,

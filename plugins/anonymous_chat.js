@@ -18,7 +18,7 @@ async function handler(m, { command }) {
             if (room) {
                 await this.sendButton(room.a, '_Partner ditemukan!_', author, null, [['Next', `.next`]], m)
                 room.b = m.sender
-                room.state = 'ᴄʜᴀᴛᴛɪɴɢ'
+                room.state = 'CHATTING'
                 await this.sendButton(room.a, '_Partner ditemukan!_', author, null, [['Next', `.next`]], m)
             } else {
                 let id = + new Date
@@ -26,7 +26,7 @@ async function handler(m, { command }) {
                     id,
                     a: m.sender,
                     b: '',
-                    state: 'ᴡᴀɪᴛɪɴɢ',
+                    state: 'WAITING',
                     check: function (who = '') {
                         return [this.a, this.b].includes(who)
                     },
