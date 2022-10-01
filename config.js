@@ -105,7 +105,7 @@ global.wm3 = 'P E N T A G R A M'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 XPENT4'
-global.author = global.wm
+global.author = 'x p e n t a'
 global.logo = 'https://ibb.co/17RY7x9'
 
 
