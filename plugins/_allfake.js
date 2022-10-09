@@ -48,9 +48,9 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: author,
 					mediaUrl: sig,
-					description: 'Elaina-MultiDevice',
+					description: 'x p e n t a',
 					previewType: "PHOTO",
-					thumbnail: await (await fetch(pic)).buffer(),
+					thumbnail: fs.readFileSync('./darkness.jpg'),
 					sourceUrl: '',					
 				}
 			}
