@@ -698,12 +698,14 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ok', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    renderLargerThumbnail: true,
     mediaUrl: "https://instagram.com/_lucxfvr",
-    mediaType: 2, 
+    containsAutoReply: true,
+    mediaType: 1, 
     description: "Version 3.0", 
     title: 'X P E N T 4',
     body: '',
-    thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
+    thumbnail: await(await fetch(pp)).buffer(),
     sourceUrl: ''
      }}
   })
