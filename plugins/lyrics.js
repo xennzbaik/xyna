@@ -19,7 +19,7 @@ contextInfo: { externalAdReply :{
                         containsAutoReply: true,
                         mediaType: 1,
                         description: 'anu',
-                        title: 'M A I N T A N I E D',
+                        title: '404 • Error',
                         body: 'Tap Disini Untuk Bergabung Grup BOT',          
                         thumbnail: await (await fetch(url)).buffer(),
                         sourceUrl: sgc
