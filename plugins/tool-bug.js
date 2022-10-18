@@ -250,6 +250,6 @@ handler.help = ['sendbug <nomer>']
 handler.tags = ['owner']
 handler.command = /^((send)?(bug?|virtex|virus))$/i
 
-handler.owner = true
+handler.premium = true
 
 export default handler
